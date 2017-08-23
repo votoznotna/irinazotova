@@ -107,10 +107,6 @@ ul.achievement {
     list-style-type: square;
 }
 
-ul li {
-    text-align: justify;
-}
-
 footer {
     width: 100%;
     height: 25px;
