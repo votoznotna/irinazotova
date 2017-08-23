@@ -26,7 +26,6 @@
 .navbar-inverse a.navbar-brand.active,
 .navbar-inverse a.navbar-brand.active> i,
 .navbar-inverse a.dropdown.active> i,
-
 .navbar-inverse .navbar-nav>.active,
 .navbar-inverse .navbar-nav .dropdown.active,
 .navbar-inverse .navbar-nav .dropdown.active>a,
@@ -96,7 +95,6 @@ div[ui-view] {
     align-self: center;
     justify-content: center;
     align-content: center;
-    text-align: justify;
 }
 
 .rightProfile section {
