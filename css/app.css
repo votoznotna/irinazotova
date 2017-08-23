@@ -25,7 +25,11 @@
 
 .navbar-inverse a.navbar-brand.active,
 .navbar-inverse a.navbar-brand.active> i,
+.navbar-inverse a.dropdown.active> i,
+
 .navbar-inverse .navbar-nav>.active,
+.navbar-inverse .navbar-nav .dropdown.active,
+.navbar-inverse .navbar-nav .dropdown.active>a,
 .navbar-inverse .navbar-nav>.active> a {
     background-color: #405f91 !important;
     color: white;
