@@ -1,0 +1,237 @@
+#iZotova {
+    color: #405f91;
+    font-family: Garamond, Times New Roman;
+    font-size: 18px;
+    padding-bottom: 40px;
+    background-image: url("../images/seamless_texture.png");
+}
+
+.title {
+    text-align: center;
+    margin: 7px auto;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-form {
+    border-color: none !important;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse a.navbar-brand.active,
+.navbar-inverse a.navbar-brand.active> i,
+.navbar-inverse .navbar-nav>.active,
+.navbar-inverse .navbar-nav>.active> a {
+    background-color: #405f91 !important;
+    color: white;
+}
+
+#home-menu {
+    display: flex;
+}
+
+#home-menu > i {
+    align-self: center;
+}
+
+#menu.navbar-inverse {
+    background-color: #405f91;
+    border-color: #143883;
+}
+
+
+div[ui-view] {
+    position: relative;
+    left: 0%;
+    padding: 0 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.leftProfile section  {
+    margin: auto;
+
+}
+@media all and (min-width: 768px) {
+    #home {
+        display: flex;
+    }
+}
+
+.profileImage {
+    width: 180;
+    text-align: center;
+    display: block;
+}
+
+.profileImage > img {
+    width: 200px;
+}
+
+.profileAddress{
+    width: 230px;
+    padding: 30px 0 10px;
+    opacity: 0.9;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profileAddress address{
+    margin-top: 10px;
+}
+
+.rightProfile {
+    padding: 0;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+}
+
+.rightProfile section {
+    margin: auto;
+    align-self: center;
+}
+
+
+ul.achievement {
+    list-style-type: square;
+}
+
+ul li {
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .box {
+    margin: 0 auto;
+}
+
+footer .box p {
+    margin: 0;
+    border-top: 1px solid #405f91;
+}
+
+ng-include.ng-enter,
+[ng-include].ng-enter,
+ng-view.ng-enter,
+[ng-view].ng-enter,
+ui-view.ng-enter,
+[ui-view].ng-enter {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+ng-include.ng-enter-active,
+[ng-include].ng-enter-active,
+ng-view.ng-enter-active,
+[ng-view].ng-enter-active,
+ui-view.ng-enter-active,
+[ui-view].ng-enter-active {
+    opacity: 1;
+}
+.ng-animate-block-transitions {
+    -webkit-transition: 0s all !important;
+    -moz-transition: 0s all !important;
+    -ms-transition: 0s all !important;
+    -o-transition: 0s all !important;
+    transition: 0s all !important;
+    -webkit-transition: 0s all !important;
+}
+.ng-hide-add-active,
+.ng-hide-remove {
+    display: block !important;
+}
+.ng-hide-add-active,
+.ng-hide-remove {
+    display: block !important;
+}
+[ng:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide {
+    display: none !important;
+}
+ng:form {
+    display: block;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeItem {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Standard syntax */
+.flexListItem {
+    -webkit-animation: fadeItem 0.5s linear;
+    animation: fadeItem 0.5s linear;
+}
+.dropdown-menu.ng-enter,
+.dropdown-menu.ng-leave {
+    -webkit-transition: opacity 350ms;
+    -moz-transition: opacity 350ms;
+    -ms-transition: opacity 350ms;
+    -o-transition: opacity 350ms;
+    transition: opacity 350ms;
+}
+.dropdown-menu.ng-enter-active,
+.dropdown-menu.ng-leave {
+    opacity: 1;
+}
+.dropdown-menu.ng-leave-active,
+.dropdown-menu.ng-enter {
+    opacity: 0;
+}
+@-moz-keyframes fadeItem {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeItem {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeItem {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeItem {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

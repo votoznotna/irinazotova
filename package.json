@@ -1,0 +1,27 @@
+{
+  "name": "iZotova",
+  "version": "1.0.0",
+  "description": "Irina Zotova's profile",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/votoznotna/izotova.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Anton Zotov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/votoznotna/izotova/issues"
+  },
+  "dependencies": {
+    "connect": "latest",
+    "forever": "latest",
+    "serve-static": "latest"
+  },
+  "homepage": "https://github.com/votoznotna/izotova#readme"
+}
