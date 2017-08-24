@@ -106,9 +106,10 @@ div[ui-view] {
     margin-top: 10px;
 }
 
+
+
 .rightProfile {
     padding: 0;
-    align-self: top;
     justify-content: center;
     align-content: center;
 }
@@ -118,6 +119,13 @@ div[ui-view] {
     align-self: center;
 }
 
+@media all and (min-width: 768px) {
+    .rightProfile {
+        display: flex;
+        height: 300px;
+    }
+
+}
 
 ul.achievement {
     list-style-type: square;
