@@ -1,6 +1,6 @@
 #iZotova {
-    color: #405f91;
-    font-family: Garamond, Times New Roman;
+    color: #496993;
+    font-family: Times New Roman;
     font-size: 18px;
     padding-bottom: 40px;
     background-image: url("../images/seamless_texture.png");
@@ -26,12 +26,21 @@
 .navbar-inverse a.navbar-brand.active,
 .navbar-inverse a.navbar-brand.active> i,
 .navbar-inverse a.dropdown.active> i,
-.navbar-inverse .navbar-nav>.active,
 .navbar-inverse .navbar-nav .dropdown.active,
 .navbar-inverse .navbar-nav .dropdown.active>a,
-.navbar-inverse .navbar-nav>.active> a {
+.navbar-inverse .navbar-nav>.nav-item.active,
+.navbar-inverse .navbar-nav>.nav-item.active> a {
     background-color: #405f91 !important;
     color: white;
+}
+
+.navbar-inverse .navbar-nav .dropdown,
+.navbar-inverse .navbar-nav .dropdown>a {
+    background-color: #405f91 !important;
+}
+
+.menuItemBlur {
+    color: #9d9d9d !important;
 }
 
 #home-menu {

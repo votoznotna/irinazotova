@@ -5,7 +5,8 @@
          $rootScope._ = window._;
       }])
       .constant('_', window._)
-      .run (['$rootScope', '$state', function($rootScope, $state){
+      .run (['$rootScope', '$state', '$stateParams', function($rootScope, $state, $stateParams){
          $rootScope.$state = $state;
+         $rootScope.$stateParams = $stateParams;
       }])
 }());

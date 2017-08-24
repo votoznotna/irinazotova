@@ -2,10 +2,9 @@
    "use strict";
 
    module.controller('experience',
-      [ '$scope', '$window', '$timeout', 'CONSTANTS', experienceCtrl ]);
+      [ '$scope', '$timeout', 'CONSTANTS', 'run', experienceCtrl ]);
 
-   function experienceCtrl($scope, $timeout, CONSTANTS) {
-
+   function experienceCtrl($scope, $timeout, CONSTANTS, run) {
    }
 
 }(angular.module("iZotova")));

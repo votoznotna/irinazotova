@@ -1,7 +1,7 @@
 (function (module) {
    "use strict";
 
-   module.factory('run', [ 'CONSTANTS', function (CONSTANTS) {
+   module.factory('run', [ 'CONSTANTS', '$timeout', function (CONSTANTS, $timeout) {
 
       var service = {
 

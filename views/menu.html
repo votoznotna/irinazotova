@@ -35,8 +35,8 @@
 				<li class="nav-item" ng-class="{ active: $state.is('presentations')}">
 					<a ui-sref="presentations">Presentations</a>
 				</li>
-				<li class="nav-item" ng-class="{ active: $state.is('cv')}">
-					<a ng-href="{{cvRef}}" target="_blank" >CV</a>
+				<li class="nav-item" ng-click="$state.go('cv')" ng-class="{ active: $state.is('cv')}">
+					<a ng-href="{{cvRef}}"  target="_blank">CV</a>
 				</li>
 			</ul>
 		</div>
