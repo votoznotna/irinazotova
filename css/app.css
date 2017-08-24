@@ -262,7 +262,7 @@ ng:form {
 }
 
 @media all and (max-width: 768px) {
-    .profile-modal, p {
+    .profile-modal {
         text-align: justify;
     }
 }
