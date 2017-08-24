@@ -126,6 +126,13 @@ div[ui-view] {
 
 }
 
+@media all and (max-width: 768px) {
+    .rightProfile section{
+        text-align: justify;
+    }
+}
+
+
 ul.achievement {
     list-style-type: square;
 }
