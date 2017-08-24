@@ -89,7 +89,7 @@ div[ui-view] {
 .profileImage > img {
     width: 200px;
     border-radius: 3px;
-    border: 2px solid #496993;
+    border: 5px solid #597da3;
 }
 
 .profileAddress{
