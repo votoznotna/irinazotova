@@ -74,11 +74,7 @@ div[ui-view] {
     margin: auto;
 
 }
-@media all and (min-width: 768px) {
-    #home {
-        display: flex;
-    }
-}
+
 
 .profileImage {
     text-align: center;
@@ -105,8 +101,6 @@ div[ui-view] {
     margin-top: 10px;
 }
 
-
-
 .rightProfile {
     padding: 0;
     justify-content: center;
@@ -117,21 +111,6 @@ div[ui-view] {
     margin: auto;
     align-self: center;
 }
-
-@media all and (min-width: 768px) {
-    .rightProfile {
-        display: flex;
-        height: 300px;
-    }
-
-}
-
-@media all and (max-width: 768px) {
-    .rightProfile section{
-        text-align: justify;
-    }
-}
-
 
 ul.achievement {
     list-style-type: square;
@@ -269,5 +248,21 @@ ng:form {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #home {
+        display: flex;
+    }
+    .rightProfile {
+        display: flex;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .profile-modal, p {
+        text-align: justify;
     }
 }
