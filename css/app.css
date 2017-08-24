@@ -8,7 +8,7 @@
 
 .title {
     text-align: center;
-    margin: 7px auto;
+    margin: 20px auto;
 }
 
 .navbar {
@@ -88,8 +88,8 @@ div[ui-view] {
 
 .profileImage > img {
     width: 200px;
-    border-radius: 7px;
-    border: 5px solid white;
+    border-radius: 3px;
+    border: 2px solid #496993;
 }
 
 .profileAddress{
@@ -108,7 +108,7 @@ div[ui-view] {
 
 .rightProfile {
     padding: 0;
-    align-self: center;
+    align-self: top;
     justify-content: center;
     align-content: center;
 }

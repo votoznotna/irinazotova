@@ -38,11 +38,6 @@
                templateUrl: "views/pages/references.html",
                controller: "references"
             })
-            .state("presentations", {
-               url: "/presentations",
-               templateUrl: "views/pages/presentations.html",
-               controller: "presentations"
-            })
             .state("cv", {
                url: "/cv",
                templateUrl: "views/pages/cv.html",

@@ -23,18 +23,19 @@
 				<li class="nav-item" ng-class="{ active: $state.is('research')}">
 					<a ui-sref="research">Research</a>
 				</li>
-				<li class="dropdown" ng-class="{ active: $state.is('teaching') || $state.is('classMaterials') }">
+				<li class="nav-item" ng-class="{ active: $state.is('teaching')}">
+					<a ui-sref="teaching">Teaching</a>
+				</li>
+<!--				<li class="dropdown" ng-class="{ active: $state.is('teaching') || $state.is('classMaterials') }">
 					<a ui-sref="teaching"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a ui-sref="classMaterials">Class Materials</a></li>
 					</ul>
-				</li>
+				</li>-->
 				<li class="nav-item" ng-class="{ active: $state.is('references')}">
 					<a ui-sref="references">References</a>
 				</li>
-				<li class="nav-item" ng-class="{ active: $state.is('presentations')}">
-					<a ui-sref="presentations">Presentations</a>
-				</li>
+
 				<li class="nav-item" ng-click="$state.go('cv')" ng-class="{ active: $state.is('cv')}">
 					<a ng-href="{{cvRef}}"  target="_blank">CV</a>
 				</li>
