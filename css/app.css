@@ -1,6 +1,7 @@
 #iZotova {
-    color: #496993;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #4a6786;
+    font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 16px;
     padding-bottom: 40px;
     background-image: url("../images/seamless_texture.png");
@@ -119,7 +120,7 @@ ul.achievement {
     list-style-type: square;
 }
 
-ul li {
+ul.achievement > li {
     padding-bottom: 15px;
 }
 
