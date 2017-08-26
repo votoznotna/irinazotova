@@ -17,6 +17,26 @@ h3 {
     margin-top: 0;
 }
 
+author {
+    margin-right: 10px;
+}
+
+context, toc {
+    display: block;
+}
+
+toc {
+    margin-bottom: 5px;
+}
+
+context {
+    margin-bottom: 25px;
+}
+
+title {
+    margin-bottom: 20px;
+}
+
 cite {
     font-size: 14px;
 }
