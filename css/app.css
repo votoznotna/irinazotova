@@ -7,6 +7,10 @@
     background-image: url("../images/seamless_texture.png");
 }
 
+#menu-phantom {
+    visibility: hidden;
+}
+
 .title {
     text-align: center;
     margin: 20px auto;
@@ -252,22 +256,7 @@ ng:form {
     -webkit-animation: fadeItem 0.5s linear;
     animation: fadeItem 0.5s linear;
 }
-.dropdown-menu.ng-enter,
-.dropdown-menu.ng-leave {
-    -webkit-transition: opacity 350ms;
-    -moz-transition: opacity 350ms;
-    -ms-transition: opacity 350ms;
-    -o-transition: opacity 350ms;
-    transition: opacity 350ms;
-}
-.dropdown-menu.ng-enter-active,
-.dropdown-menu.ng-leave {
-    opacity: 1;
-}
-.dropdown-menu.ng-leave-active,
-.dropdown-menu.ng-enter {
-    opacity: 0;
-}
+
 @-moz-keyframes fadeItem {
     from {
         opacity: 0;
