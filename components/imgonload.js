@@ -10,7 +10,7 @@
             var loader = null;
 
             if(imgLoadingIcon) {
-               loader = angular.element("<img class='center-block' src='" + imgLoadingIcon + "' style='visibility:visible; margin: 50px auto;' alt='Processing...'>");
+               loader = angular.element("<img class='center-block img-loading' src='" + imgLoadingIcon + "' alt='Loading...'>");
                element.after(loader);
             }
 

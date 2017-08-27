@@ -112,17 +112,26 @@ div[ui-view] {
 
 }
 
-
 .profileImage {
     text-align: center;
-    display: block;
+    display: flex;
+}
+
+.profileImage > img.img-loading {
+    padding: 98px 65px;
+    visibility:visible;
+    margin: auto;
 }
 
 .profileImage > img {
     width: 225px;
+    margin: auto;
+    align-self: center;
     border-radius: 10px;
     border: 3px solid #405f91;
 }
+
+
 
 .profileAddress{
     width: 230px;
@@ -298,12 +307,12 @@ ng:form {
     }
     .rightProfile {
         display: flex;
-        height: 300px;
+        height: 292px;
     }
 }
 
 @media all and (max-width: 768px) {
-    .profile-modal {
+    .profile-mobile {
         text-align: justify;
     }
 }
