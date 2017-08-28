@@ -11,6 +11,10 @@
     display: none;
 }
 
+#main {
+    margin-top: 20px;
+}
+
 .title {
     text-align: center;
     margin: 20px auto;
