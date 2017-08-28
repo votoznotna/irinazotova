@@ -8,7 +8,7 @@
 }
 
 #menu-phantom {
-    visibility: hidden;
+    display: none;
 }
 
 .title {
