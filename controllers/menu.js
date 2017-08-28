@@ -5,27 +5,30 @@
       [ '$scope', '$state', '$timeout', 'CONSTANTS', menuCtrl ]);
 
    function menuCtrl($scope, $state, $timeout, CONSTANTS) {
+
       $scope.cvRef = CONSTANTS.cvRef;
+
       $('#menu-phantom').html($('#menu').html());
+
+      stickyRelocate();
+
       $(window).scroll(function () {
+         stickyRelocate();
+      });
+
+      function stickyRelocate() {
          var window_top = $(window).scrollTop();
          var div_top = $('#content-anchor').offset().top;
          var profileTitle = $('#profileTitle'),
             menu = $('#menu'),
             menuPhantom = $('#menu-phantom');
-            //menuPhantom.html(menu.html());
          if (window_top > div_top) {
-            menu.addClass('navbar-fixed-top');
-            //menu.removeClass('zindex0').addClass('zindex1');
+            menu.addClass('navbar-fixed-top', 500);
             menuPhantom.show();
-            //menuPhantom.removeClass('zindex1').addClass('zindex0');
          } else {
-            menu.removeClass('navbar-fixed-top');
-            //menu.removeClass('zindex0').addClass('zindex1');
+            menu.removeClass('navbar-fixed-top', 500);
             menuPhantom.hide();
-            //menuPhantom.removeClass('zindex1').addClass('zindex0');
          }
-      });
-
+      }
    }
 }(angular.module("iZotova")));
