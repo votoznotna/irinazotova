@@ -16,6 +16,11 @@
          stickyRelocate();
       });
 
+      $scope.smoothScroll = function() {
+         $("html, body").animate({ scrollTop: $('#content-anchor').offset().top }, 500);
+      }
+
+
       function stickyRelocate() {
          var window_top = $(window).scrollTop();
          var div_top = $('#content-anchor').offset().top;
