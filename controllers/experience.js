@@ -12,9 +12,9 @@
          'She\'s an awesome TA! Probably one of the reasons why I\'m doing well in this course and actually learning instead of memorizing.',
          'She simplifies large problems into logical steps that foster learning for students.',
          'Goes through difficult and important topics clearly, tries to explain them differently than in lecture so that we have more ways to understand the material.',
-         'She was always willing to help and answer questions. She also guided us through difficult problems without outright giving the answer. She really made this tedious subject material more bearable to study.',
-         'TA made the section clear and organized. She always well prepared for assisting reviewing the main points of each week lecture. Also, she provided varied examples to supplement the lecture.',
-         'TA\'s intelligence, professional nature, helpfulness, and openness to help.'
+         // 'She was always willing to help and answer questions. She also guided us through difficult problems without outright giving the answer. She really made this tedious subject material more bearable to study.',
+         // 'TA made the section clear and organized. She always well prepared for assisting reviewing the main points of each week lecture. Also, she provided varied examples to supplement the lecture.',
+         // 'TA\'s intelligence, professional nature, helpfulness, and openness to help.'
       ]
    }
 
