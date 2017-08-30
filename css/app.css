@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     background-image: url("../images/seamless_texture.png");
 }
 
@@ -106,7 +106,6 @@ cite {
     border-color: #143883;
 }
 
-
 div[ui-view] {
     position: relative;
     left: 0%;
@@ -172,6 +171,15 @@ ul.achievement {
 
 ul.achievement > li {
     padding-bottom: 10px;
+}
+
+p.excerpt span {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+p.excerpt i {
+    opacity: 0.8;
 }
 
 footer {

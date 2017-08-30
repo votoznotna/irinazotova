@@ -23,10 +23,10 @@
             menu = $('#menu'),
             menuPhantom = $('#menu-phantom');
          if (window_top > div_top) {
-            menu.addClass('navbar-fixed-top', 500);
+            menu.addClass('navbar-fixed-top');
             menuPhantom.show();
          } else {
-            menu.removeClass('navbar-fixed-top', 500);
+            menu.removeClass('navbar-fixed-top');
             menuPhantom.hide();
          }
       }
