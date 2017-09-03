@@ -25,6 +25,9 @@
 				<li class="nav-item" ng-class="{ active: $state.is('teaching')}">
 					<a ui-sref="teaching" ng-click="smoothScroll()">TEACHING</a>
 				</li>
+				<li class="nav-item" ng-class="{ active: $state.is('feedback')}">
+					<a ui-sref="feedback" ng-click="smoothScroll()">FEEDBACK</a>
+				</li>
 <!--				<li class="dropdown" ng-class="{ active: $state.is('teaching') || $state.is('classMaterials') }">
 					<a ui-sref="teaching"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
 					<ul class="dropdown-menu">
@@ -33,9 +36,6 @@
 				</li>-->
 				<li class="nav-item" ng-class="{ active: $state.is('references')}">
 					<a ui-sref="references" ng-click="smoothScroll()">REFERENCES</a>
-				</li>
-				<li class="nav-item" ng-class="{ active: $state.is('feedback')}">
-					<a ui-sref="feedback" ng-click="smoothScroll()">FEEDBACK</a>
 				</li>
 				<li class="nav-item" ng-click="$state.go('cv')" ng-class="{ active: $state.is('cv')}">
 					<a ng-href="{{cvRef}}"  target="_blank">CV</a>
