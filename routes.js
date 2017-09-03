@@ -13,11 +13,6 @@
                templateUrl: "views/pages/home.html",
                controller: "home"
             })
-            .state("experience", {
-               url: "/experience",
-               templateUrl: "views/pages/experience.html",
-               controller: "experience"
-            })
             .state("research", {
                url: "/research",
                templateUrl: "views/pages/research.html",
@@ -37,6 +32,11 @@
                url: "/references",
                templateUrl: "views/pages/references.html",
                controller: "references"
+            })
+            .state("feedback", {
+               url: "/feedback",
+               templateUrl: "views/pages/feedback.html",
+               controller: "feedback"
             })
             .state("cv", {
                url: "/cv",

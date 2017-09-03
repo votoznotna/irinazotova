@@ -1,10 +1,10 @@
 (function (module) {
    "use strict";
 
-   module.controller('experience',
-      [ '$scope', '$timeout', 'CONSTANTS', 'run', experienceCtrl ]);
+   module.controller('feedback',
+      [ '$scope', '$timeout', 'CONSTANTS', 'run', feedbackCtrl ]);
 
-   function experienceCtrl($scope, $timeout, CONSTANTS, run) {
+   function feedbackCtrl($scope, $timeout, CONSTANTS, run) {
       $scope.excerpts = [
          'She obviously really cares about the course and the material. When you ask her a question about the material, she always gives an answer that is clear and concise.',
          'I understood everything she said and she knew to just work on the harder material which was were all the troubles in the class were arising.',
