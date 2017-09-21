@@ -33,11 +33,11 @@ author {
     margin-right: 10px;
 }
 
-context, toc {
+context, toc, edu {
     display: block;
 }
 
-toc {
+toc, edu {
     margin-bottom: 5px;
 }
 
@@ -196,6 +196,7 @@ footer {
 
 .years {
     border-bottom: 2px dotted #405f91;
+    float: right;
 }
 
 footer .box {
@@ -319,5 +320,11 @@ ng:form {
 @media all and (max-width: 768px) {
     .profile-mobile {
         text-align: justify;
+    }
+    .years {
+        float: none;
+        white-space: nowrap;
+        text-align; right;
+        margin-left: 10px;
     }
 }
