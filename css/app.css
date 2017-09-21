@@ -194,6 +194,10 @@ footer {
     padding-right: 0px;
 }
 
+.years {
+    border-bottom: 2px dotted #405f91;
+}
+
 footer .box {
     margin: 0 auto;
 }

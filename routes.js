@@ -13,6 +13,11 @@
                templateUrl: "views/pages/home.html",
                controller: "home"
             })
+            .state("education", {
+               url: "/education",
+               templateUrl: "views/pages/education.html",
+               controller: "education"
+            })
             .state("research", {
                url: "/research",
                templateUrl: "views/pages/research.html",
