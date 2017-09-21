@@ -33,16 +33,20 @@ author {
     margin-right: 10px;
 }
 
-context, toc, edu {
+context, toc, edu, ski {
     display: block;
 }
 
-toc, edu {
+toc, edu, ski {
     margin-bottom: 5px;
 }
 
 p {
     margin-top: 30px;
+}
+
+edu author {
+    font-
 }
 
 p:first-child {
@@ -109,7 +113,7 @@ cite {
 div[ui-view] {
     position: relative;
     left: 0%;
-    padding: 0;
+    padding: 0 10px;
     margin-top: 20px;
     width: 100%;
 }
@@ -315,6 +319,7 @@ ng:form {
         display: flex;
         height: 292px;
     }
+
 }
 
 @media all and (max-width: 768px) {
@@ -326,5 +331,10 @@ ng:form {
         white-space: nowrap;
         text-align; right;
         margin-left: 10px;
+    }
+}
+@media all and (max-width: 992px) {
+    .container {
+        width: auto;
     }
 }
