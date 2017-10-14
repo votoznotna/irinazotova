@@ -207,6 +207,11 @@ footer {
     float: right;
 }
 
+contacts {
+  position: relative;
+  top: 6px;
+}
+
 footer .box {
     margin: 0 auto;
 }
