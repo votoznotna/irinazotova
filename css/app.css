@@ -4,7 +4,7 @@
     /*-webkit-font-smoothing: antialiased;*/
     font-size: 18px;
     padding-bottom: 50px;
-    background-image: url("../images/seamless_texture.png");
+    /*background-image: url("../images/seamless_texture.png");*/
 }
 
 #menu-phantom {
@@ -39,6 +39,10 @@ context, toc, edu, ski {
 
 toc, edu, ski {
     margin-bottom: 5px;
+}
+
+toc {
+    margin-top: 20px;
 }
 
 p {
