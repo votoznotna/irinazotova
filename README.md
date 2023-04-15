@@ -1,3 +1,3 @@
 # Irina Zotova's profile
 
-## Runtime: https://irinazotova.herokuapp.com
+## Runtime: https://irinazotova-votoznotna.vercel.app/#/
